@@ -1,0 +1,164 @@
+.main{
+    margin: 50px 50px 50px;
+    display: flex;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(245, 245, 255);
+    width: 250px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+.rating a{
+    color: black;
+}
+.mainleft h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 45px;
+    color: #3B2F65;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+.subtxt{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.cardscontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.cards{
+    background-color: rgb(245, 245, 255);
+    padding: 10px 20px;
+    width: 130px;
+    border-radius: 20px;
+    margin: 10px 20px 10px 0;
+    text-align: center;
+}
+.cards img{
+    height: 70px;
+    
+}
+.textimg{
+    color: black;
+    margin-top: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.textimg strong{
+    font-size: 20px;
+}
+.textimg img{
+    margin-left: 20px;
+}
+
+.form-container{
+    background-color: rgb(254, 254, 254);
+    height: 350px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: auto ;
+    top:20px ;
+    justify-self: flex-start;
+    box-shadow: 10px 10px 30px 1px rgb(8, 8, 8);
+    border:2px solid #DEE3FF;
+}
+
+.form-box{
+    margin: 15px;
+    display: flex;
+}
+input,select{
+    border-radius: 10px;
+    border-color: #f4f4f4;
+    border:2px solid #DEE3FF;
+    margin: 10px 5px;
+    height: 40px;
+    width: 95%;
+    text-align: center;
+}
+.name{
+    width: 45%;
+    margin-top: 20px;
+}
+.phnid{
+    width: 100px;
+    height: 45px;
+}
+.phn{
+    width: 60%;
+}
+
+form button{
+    height: 50px;
+    width: 95%;
+    font-family: sans-serif;
+    border: none;
+    background-color: #FFD90F;
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+}
+
+.badge{
+    background-color: #a983ef;
+    padding: 20px 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.badge p{
+    color: white;
+    margin: 20px 50px 10px;
+    font-size: 18px;
+}
+.badge-items{
+    padding-right: 100px; 
+    border-right: 2px solid white;
+}
+.scholarship{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.scholarship p{
+    color: #9868EF;
+    margin-left: 0;
+}
+
+.scholarContent{
+    display: flex;
+    background-color: #8482db;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.scholarContent p{
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.scholarContent img{
+    height: 50px;
+    width: 50px;
+}
+
+.badge span{
+    font-size: 26px;
+}

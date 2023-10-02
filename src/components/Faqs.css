@@ -1,0 +1,14 @@
+.faq{
+    margin: 150px 50px 50px;
+}
+.faq h1{
+    text-align: center;
+    font-family: serif;
+    margin-bottom: 50px;
+}
+.faq p{
+    margin: 20px;
+    background-color: rgb(232, 238, 242);
+    height: 30px;
+    padding: 10px;
+}
